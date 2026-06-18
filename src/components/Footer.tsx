@@ -6,22 +6,22 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 sm:py-8 lg:py-12">
         <div className="text-center mb-6 sm:mb-8">
           <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6">Important Dates</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 max-w-5xl mx-auto">
-            <div className="p-3 sm:p-4 hover:scale-105 transition-transform duration-300 bg-muted/30 rounded-lg">
-              <p className="font-semibold text-foreground text-sm sm:text-base">Last date of submission </p>
-              <p className="text-muted-foreground text-sm">10 January 2026</p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
+            <div className="p-4 flex flex-col items-center justify-center bg-[#eef2f5] border border-slate-300 rounded-md hover:scale-105 transition-transform duration-300 shadow-sm">
+              <p className="text-black font-medium text-sm sm:text-base mb-1">Last date of submission</p>
+              <p className="text-[#0f2d5e] font-bold text-base sm:text-lg">20th October 2026</p>
             </div>
-            <div className="p-3 sm:p-4 hover:scale-105 transition-transform duration-300 bg-muted/30 rounded-lg">
-              <p className="font-semibold text-foreground text-sm sm:text-base">Author Notification:</p>
-              <p className="text-muted-foreground text-sm">20 January 2026</p>
+            <div className="p-4 flex flex-col items-center justify-center bg-[#eef2f5] border border-slate-300 rounded-md hover:scale-105 transition-transform duration-300 shadow-sm">
+              <p className="text-black font-medium text-sm sm:text-base mb-1">Author Notification:</p>
+              <p className="text-[#0f2d5e] font-bold text-base sm:text-lg">1st November 2026</p>
             </div>
-            <div className="p-3 sm:p-4 hover:scale-105 transition-transform duration-300 bg-muted/30 rounded-lg">
-              <p className="font-semibold text-foreground text-sm sm:text-base">Camera-Ready Submission:</p>
-              <p className="text-muted-foreground text-sm">30 January 2026</p>
+            <div className="p-4 flex flex-col items-center justify-center bg-[#eef2f5] border border-slate-300 rounded-md hover:scale-105 transition-transform duration-300 shadow-sm">
+              <p className="text-black font-medium text-sm sm:text-base mb-1">Camera ready paper:</p>
+              <p className="text-[#0f2d5e] font-bold text-base sm:text-lg">8th November 2026</p>
             </div>
-            <div className="p-3 sm:p-4 hover:scale-105 transition-transform duration-300 bg-muted/30 rounded-lg">
-              <p className="font-semibold text-foreground text-sm sm:text-base">Conference Date:</p>
-              <p className="text-muted-foreground text-sm">Nov 14th & 15th 2026</p>
+            <div className="p-4 flex flex-col items-center justify-center bg-[#eef2f5] border border-slate-300 rounded-md hover:scale-105 transition-transform duration-300 shadow-sm">
+              <p className="text-black font-medium text-sm sm:text-base mb-1">Conference Date:</p>
+              <p className="text-[#0f2d5e] font-bold text-base sm:text-lg">14th - 15th November 2026</p>
             </div>
           </div>
         </div>

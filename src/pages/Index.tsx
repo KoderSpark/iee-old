@@ -49,7 +49,7 @@ const Index = () => {
                 className="text-lg sm:text-xl mb-4 sm:mb-6 animate-slide-up"
                 style={{ animationDelay: "0.5s" }}
               >
-                Nov 14th & 15th 2026 (Hybrid Mode)
+                November 14th & 15th 2026 (Hybrid Mode)
               </p>
               <p
                 className="text-base sm:text-lg mb-6 sm:mb-8 opacity-90 animate-slide-up"
