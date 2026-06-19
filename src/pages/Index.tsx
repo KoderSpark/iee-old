@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/homepage_image.jpg";
 import clgLogo from "@/assets/clg_logo.jpeg";
 import eeeLogo from "@/assets/eee_logo.jpg";
+import picture1 from "@/assets/Picture1.png";
 
 const Index = () => {
   return (
@@ -140,9 +141,10 @@ const Index = () => {
               </h2>
               <div className="flex items-center justify-between flex-wrap gap-6">
                 <div className="animate-slide-up">
-                  <p className="text-foreground text-lg hover:text-primary transition-colors duration-300">
-                    All accepted and registered (presented) papers are planned
-                    to publish in the CISC Conference proceeding's link.
+                  <p className="text-foreground text-lg hover:text-primary transition-colors duration-300 leading-relaxed">
+                    All accepted and presented papers are planned to be published in the{" "}
+                    <img src={picture1} alt="Springer" className="h-6 object-contain inline-block mx-1 align-middle -mt-1" />{" "}
+                    Applied Sciences and Engineering proceedings, subject to approval.
                   </p>
                 </div>
               </div>

@@ -55,7 +55,7 @@ const Speakers = () => {
               industry sharing their expertise.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               {speakers.map((speaker, index) => (
                 <div
                   key={index}

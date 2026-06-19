@@ -126,17 +126,7 @@ const CallForPapers = () => {
 
         <div className="max-w-7xl mx-auto px-4 py-12">
           <ContentBox>
-            <div className="text-center mb-8 space-y-2">
-              <h1 className="text-2xl sm:text-3xl font-bold text-primary">International Conference on Computational and Emerging Technologies for Sustainable Energy</h1>
-              <h2 className="text-xl sm:text-2xl font-bold">(ICCETSE-2026)</h2>
-              <p className="text-lg font-semibold text-foreground/80">15th - 16th May 2026</p>
-              <div className="text-foreground/90 mt-4">
-                <p>Organized by</p>
-                <p className="font-medium text-lg">Department of Electrical & Electronics Engineering, Annamacharya University</p>
-              </div>
-            </div>
-
-            <div className="border-t border-border pt-8">
+            <div>
               <h2 className="text-3xl font-bold mb-6 text-center">Call for Papers</h2>
               <p className="text-foreground leading-relaxed mb-8 text-center text-lg">
                 The regular sessions of the conference will cover a range of technical tracks, including but not limited to the following:

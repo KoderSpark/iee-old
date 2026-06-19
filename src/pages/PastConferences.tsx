@@ -5,6 +5,7 @@ import PageBanner from "@/components/PageBanner";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Calendar, BookOpen, FileText, Download } from "lucide-react";
+import picture1 from "@/assets/Picture1.png";
 
 const PastConferences = () => {
   const conferences = [
@@ -73,9 +74,9 @@ const PastConferences = () => {
                     <div className="flex items-start justify-between">
                       <div className="flex items-center gap-4">
                         <div
-                          className={`w-16 h-16 rounded-full bg-gradient-to-r ${conf.gradient} flex items-center justify-center text-white font-bold text-xl shadow-lg`}
+                          className={`w-16 h-16 rounded-full bg-white flex items-center justify-center shadow-lg overflow-hidden shrink-0 border border-muted`}
                         >
-                          {conf.year}
+                          <img src={picture1} alt={conf.year} className="w-full h-full object-contain p-1" />
                         </div>
                         <div>
                           <CardTitle className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
