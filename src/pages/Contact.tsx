@@ -67,15 +67,7 @@ const Contact = () => {
         <PageBanner />
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-          <div className="text-center mb-8 space-y-2">
-            <h1 className="text-2xl sm:text-3xl font-bold text-primary">International Conference on Computational and Emerging Technologies for Sustainable Energy</h1>
-            <h2 className="text-xl sm:text-2xl font-bold">(ICCETSE-2026)</h2>
-            <p className="text-lg font-semibold text-foreground/80">15th - 16th May 2026</p>
-            <div className="text-foreground/90 mt-4">
-              <p>Organized by</p>
-              <p className="font-medium text-lg">Department of Electrical & Electronics Engineering, Annamacharya University</p>
-            </div>
-          </div>
+
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mt-12 border-t border-border pt-8">
             {/* Contact Information */}
