@@ -34,16 +34,16 @@ const Index = () => {
 
           <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-8 lg:gap-12 items-center relative z-10">
             <div className="text-center lg:text-left order-2 lg:order-1 animate-fade-in">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 leading-tight animate-scale-in">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 leading-snug animate-scale-in">
                 <span className="inline-block hover:scale-105 transition-transform duration-300">
                   International Conference on
                 </span>
-                <span className="block bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent animate-gradient-x">
-                  Computational, Emerging Technologies
+                <span className="block pb-2 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent animate-gradient-x">
+                  Computational and Emerging Technologies
                 </span>
-                <span className="block">and Sustainability</span>
+                <span className="block">for Sustainable Energy</span>
                 <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2 bg-gradient-to-r from-yellow-200 via-white to-yellow-200 bg-clip-text text-transparent animate-pulse">
-                  (ICCETS 2026)
+                  (ICCETSE 2026)
                 </span>
               </h1>
               <p
@@ -91,7 +91,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12">
           <ContentBox className="animate-fade-in">
             <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center bg-gradient-to-r from-primary via-blue-600 to-primary bg-clip-text text-transparent animate-gradient-x">
-              ICCETS 2026
+              ICCETSE 2026
             </h2>
             <div className="text-foreground leading-relaxed animate-slide-up text-justify">
               <h3 className="text-xl font-semibold text-primary mb-2">
@@ -110,24 +110,23 @@ const Index = () => {
                   societal development.
                 </p>
                 <p>
-                  The International Conference on Computational, Emerging
-                  Technologies and Sustainability (ICCETS – 2026) is envisioned
+                  The International Conference on Computational and Emerging
+                  Technologies for Sustainable Energy (ICCETSE – 2026) is envisioned
                   as a dynamic forum for technical exchange and research
                   discussions centered on innovations in engineering and
-                  technology within the broad domains of Electrical, Electronics,
-                  and Computer Science and Engineering.
+                  technology within the broad domains of Smart Grids, Renewable
+                  Energy, Power Electronics, and Intelligent Systems.
                 </p>
                 <p>
                   The conference aims to bring together researchers,
                   academicians, scientists, practitioners, and students to share
-                  and showcase their recent research outcomes. ICCETS – 2026
+                  and showcase their recent research outcomes. ICCETSE – 2026
                   aspires to provide an engaging and insightful platform for
                   interaction between experts from academia and industry, and
-                  young researchers working in diverse areas such as Power
-                  Systems, Power Electronics and Drives, Artificial Intelligence
-                  and Machine Learning, Quantum Computing and Information, Cloud
-                  Computing, Data Sciences and Cybersecurity, Robotics and
-                  Autonomous Systems, Image Processing and VLSI Design.
+                  young researchers working in diverse areas such as Smart Grids,
+                  Renewable Energy Systems, Power Electronics, Artificial Intelligence
+                  and Machine Learning, IoT and Digital Twins, Cybersecurity,
+                  Quantum Computing, and Intelligent Communication Systems.
                 </p>
               </div>
             </div>

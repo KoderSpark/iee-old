@@ -34,7 +34,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center text-xs sm:text-sm text-muted-foreground px-4">
-          <p className="leading-relaxed">Copyright © ICCETS 2026, EEE, Annamacharya University. All rights reserved.</p>
+          <p className="leading-relaxed">Copyright © ICCETSE 2026, EEE, Annamacharya University. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -31,10 +31,10 @@ const Navbar = () => {
           <Link to="/" className="flex items-center space-x-2 sm:space-x-3" onClick={closeMenu}>
             <img 
               src={logo} 
-              alt="ICCETS 2026 Logo" 
+              alt="ICCETSE 2026 Logo" 
               className="h-12 w-auto sm:h-16 object-contain max-w-[120px] sm:max-w-[150px]" 
             />
-            <span className="font-semibold text-xs sm:text-sm text-primary">ICCETS</span>
+            <span className="font-semibold text-xs sm:text-sm text-primary">ICCETSE</span>
           </Link>
           
           {/* Desktop Navigation */}

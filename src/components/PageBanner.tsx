@@ -9,9 +9,9 @@ const PageBanner = ({ title }: PageBannerProps) => {
         <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold animate-scale-in leading-tight">
           {title || (
             <>
-              <span className="block sm:inline">International Conference on Computational,</span>{" "}
-              <span className="block sm:inline">Emerging Technologies and Sustainability</span>{" "}
-              <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2 sm:mt-1">(ICCETS 2026)</span>
+              <span className="block sm:inline">International Conference on Computational and</span>{" "}
+              <span className="block sm:inline">Emerging Technologies for Sustainable Energy</span>{" "}
+              <span className="block text-lg sm:text-xl md:text-2xl lg:text-3xl font-semibold mt-2 sm:mt-1">(ICCETSE 2026)</span>
               <span className="block text-base sm:text-lg md:text-xl lg:text-2xl font-medium mt-3 sm:mt-2">November 14th & 15th 2026 (Hybrid Mode)</span>
               <span className="block text-sm sm:text-base md:text-lg lg:text-xl font-normal mt-2 sm:mt-1 opacity-90">
                 Organized by Department of Electrical & Electronics Engineering, Annamacharya University
