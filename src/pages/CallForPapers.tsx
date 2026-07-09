@@ -117,19 +117,19 @@ const CallForPapers = () => {
         <div className="max-w-7xl mx-auto px-4 py-12">
           <ContentBox>
             <div>
-              <h2 className="text-3xl font-bold mb-6 text-center">Call for Papers</h2>
-              <p className="text-foreground leading-relaxed mb-8 text-center text-lg">
+              <h2 className="text-4xl sm:text-5xl font-bold mb-8 text-center">Call for Papers</h2>
+              <p className="text-foreground leading-relaxed mb-10 text-left text-lg lg:text-xl lg:whitespace-nowrap pl-7">
                 The regular sessions of the conference will cover a range of technical tracks, including but not limited to the following:
               </p>
 
               <div className="space-y-8">
                 {themes.map((theme, index) => (
                   <div key={index} className="border-l-4 border-primary pl-6">
-                    <h3 className="text-xl font-bold mb-3 text-foreground">{theme.title}</h3>
-                    <ul className="space-y-2">
+                    <h3 className="text-2xl sm:text-3xl font-bold mb-4 text-foreground">{theme.title}</h3>
+                    <ul className="space-y-3">
                       {theme.topics.map((topic, topicIndex) => (
-                        <li key={topicIndex} className="flex items-start">
-                          <span className="text-primary mr-2">•</span>
+                        <li key={topicIndex} className="flex items-start text-lg sm:text-xl">
+                          <span className="text-primary mr-3">•</span>
                           <span className="text-foreground">{topic}</span>
                         </li>
                       ))}
@@ -137,7 +137,7 @@ const CallForPapers = () => {
                   </div>
                 ))}
                 
-                <p className="text-foreground leading-relaxed pt-6 border-t border-muted font-medium text-center text-lg">
+                <p className="text-foreground leading-relaxed pt-8 border-t border-muted font-medium text-center text-xl sm:text-2xl">
                  ⮞ We encourage authors to submit papers on these and related tracks and look forward to welcoming you to our conference.
                 </p>
               </div>

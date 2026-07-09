@@ -27,15 +27,15 @@ const Submission = () => {
               {/* Instructions to Authors */}
               <Card className="border-l-4 border-l-primary hover:shadow-lg transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-lg sm:text-xl lg:text-2xl text-primary">Instructions to Authors</CardTitle>
+                  <CardTitle className="text-2xl sm:text-3xl lg:text-4xl text-primary">Instructions to Authors</CardTitle>
                 </CardHeader>
-                <CardContent className="space-y-6">
+                <CardContent className="space-y-8">
                   
                   {/* 1. Manuscript Structure */}
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-3">1. Manuscript Structure</h3>
-                    <p className="mb-2 text-foreground/90">Your paper should follow this standard order:</p>
-                    <ul className="list-disc list-inside space-y-2 text-foreground/80 ml-2">
+                    <h3 className="text-xl sm:text-2xl font-semibold text-foreground mb-4">1. Manuscript Structure</h3>
+                    <p className="mb-3 text-lg sm:text-xl text-foreground/90">Your paper should follow this standard order:</p>
+                    <ul className="list-disc list-inside space-y-3 text-lg sm:text-xl text-foreground/80 ml-2">
                       <li><strong>a) Title:</strong> Concise and informative.</li>
                       <li><strong>b) Authors:</strong> Full names, affiliations, and email addresses (clearly mark the corresponding author).</li>
                       <li><strong>c) Abstract:</strong> A mandatory summary of 150–250 words. It should not contain undefined abbreviations or citations.</li>
@@ -47,8 +47,8 @@ const Submission = () => {
 
                   {/* 2. Formatting Guidelines */}
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-3">2. Formatting Guidelines</h3>
-                    <div className="space-y-3 text-foreground/80 ml-2">
+                    <h3 className="text-xl sm:text-2xl font-semibold text-foreground mb-4">2. Formatting Guidelines</h3>
+                    <div className="space-y-4 text-lg sm:text-xl text-foreground/80 ml-2">
                       <p><strong>Font:</strong> If not using the template, standard text is usually 10-point Times New Roman.</p>
                       
                       <div>
@@ -74,12 +74,12 @@ const Submission = () => {
 
                   {/* 3. References & Citation */}
                   <div>
-                    <h3 className="text-lg font-semibold text-foreground mb-3">3. References & Citation</h3>
-                    <p className="mb-2 text-foreground/90">Follow a numbered citation style (e.g., [1], [2]).</p>
-                    <div className="space-y-2 text-foreground/80 ml-2">
+                    <h3 className="text-xl sm:text-2xl font-semibold text-foreground mb-4">3. References & Citation</h3>
+                    <p className="mb-3 text-lg sm:text-xl text-foreground/90">Follow a numbered citation style (e.g., [1], [2]).</p>
+                    <div className="space-y-3 text-lg sm:text-xl text-foreground/80 ml-2">
                       <p><strong>In-text:</strong> Cite references using square brackets.</p>
                       <p><strong>Reference List:</strong> List references at the end of the paper.</p>
-                      <ul className="list-disc list-inside ml-4 space-y-1">
+                      <ul className="list-disc list-inside ml-4 space-y-2">
                         <li><strong>Journal:</strong> Author(s): Title. Journal Name Volume, Page range (Year).</li>
                         <li><strong>Book:</strong> Author(s): Title. Publisher, Location (Year).</li>
                         <li><strong>Conference:</strong> Author(s): Title. In: Editor(s) (eds.) Book Title. Page range. Publisher, Location (Year).</li>
@@ -93,13 +93,14 @@ const Submission = () => {
               {/* Template & Submission Links */}
               <Card className="hover:shadow-lg transition-all duration-300">
                 <CardContent className="space-y-4 pt-6">
-                  <p className="text-foreground text-sm sm:text-base lg:text-lg text-center font-medium">
+                  <p className="text-foreground text-lg sm:text-xl lg:text-2xl text-center font-medium">
                     We recommend authors to use WORD template.
                   </p>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 max-w-2xl mx-auto mt-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mt-6">
                     <Button
-                      className="w-full justify-between group bg-primary hover:bg-primary/90"
+                      size="lg"
+                      className="w-full justify-between group bg-primary hover:bg-primary/90 text-base sm:text-lg h-14"
                       onClick={() => {
                         const link = document.createElement("a");
                         link.href = "/ICCETS_2026_Template_word.docx"; 
@@ -114,7 +115,8 @@ const Submission = () => {
                     </Button>
 
                     <Button
-                      className="w-full justify-between group bg-primary hover:bg-primary/90"
+                      size="lg"
+                      className="w-full justify-between group bg-primary hover:bg-primary/90 text-base sm:text-lg h-14"
                       onClick={() => window.open("https://cmt3.research.microsoft.com/", "_blank")}
                     >
                       Submission Link: Microsoft CMT
@@ -122,19 +124,19 @@ const Submission = () => {
                     </Button>
                   </div>
 
-                  <div className="mt-6 space-y-4">
+                  <div className="mt-8 space-y-6">
                     <Card className="bg-white dark:bg-surface hover:shadow-sm transition-all duration-200">
-                      <CardContent className="p-4">
-                        <p className="text-foreground text-base leading-relaxed">
+                      <CardContent className="p-6">
+                        <p className="text-foreground text-lg sm:text-xl leading-relaxed">
                           The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-white dark:bg-surface hover:shadow-sm transition-all duration-200">
-                      <CardContent className="p-4">
-                        <p className="text-foreground text-base leading-relaxed">
-                          The authors will need to register their email with CMT to submit paper to ICCETSE-2026. Here is a link how to create a CMT account: <a href="https://cmt3.research.microsoft.com/docs/help/general/account-creation.html" target="_blank" rel="noreferrer" className="text-primary hover:underline">https://cmt3.research.microsoft.com/docs/help/general/account-creation.html</a>
+                      <CardContent className="p-6">
+                        <p className="text-foreground text-lg sm:text-xl leading-relaxed">
+                          The authors will need to register their email with CMT to submit paper to ICCETSE-2026. Here is a link how to create a CMT account: <a href="https://cmt3.research.microsoft.com/docs/help/general/account-creation.html" target="_blank" rel="noreferrer" className="text-primary hover:underline break-all">https://cmt3.research.microsoft.com/docs/help/general/account-creation.html</a>
                         </p>
                       </CardContent>
                     </Card>
@@ -145,10 +147,10 @@ const Submission = () => {
               {/* Review Policy */}
               <Card className="border-l-4 border-l-orange-500 hover:shadow-lg transition-all duration-300">
                 <CardHeader>
-                  <CardTitle className="text-2xl text-orange-600">Paper Submission & Review Policy</CardTitle>
+                  <CardTitle className="text-3xl text-orange-600">Paper Submission & Review Policy</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <p className="text-foreground text-lg leading-relaxed">
+                  <p className="text-foreground text-xl sm:text-2xl leading-relaxed">
                     All submissions underwent a rigorous peer-review process evaluating originality, technical quality, scientific contribution, clarity, and relevance. Authors were required to clearly present the research problem, contributions, and related work. Acceptance decisions were based on reviewers' evaluations and Program Committee recommendations. All manuscripts were screened using plagiarism detection tools. Papers with plagiarism or other ethical violations were rejected.
                   </p>
                 </CardContent>

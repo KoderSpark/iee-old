@@ -12,7 +12,7 @@ const Navbar = () => {
     { name: "Home", path: "/" },
     { name: "Call for Papers", path: "/call-for-papers" },
     { name: "Organizing Committee", path: "/organising-committee" },
-    { name: "Speakers", path: "/speakers" },
+    { name: "Keynote Speakers", path: "/speakers" },
     { name: "Submission", path: "/submission" },
     { name: "Registration", path: "/registration" },
     { name: "Past Conferences", path: "/past-conferences" },
@@ -28,23 +28,23 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 sm:space-x-3" onClick={closeMenu}>
+          <Link to="/" className="flex items-center space-x-2 sm:space-x-3 mr-4 lg:mr-8 shrink-0" onClick={closeMenu}>
             <img 
               src={logo} 
               alt="ICCETSE 2026 Logo" 
               className="h-12 w-auto sm:h-16 object-contain max-w-[120px] sm:max-w-[150px]" 
             />
-            <span className="font-semibold text-xs sm:text-sm text-primary">ICCETSE</span>
+            <span className="font-semibold text-sm sm:text-base text-primary">ICCETSE</span>
           </Link>
           
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-2 xl:space-x-4">
+          <div className="hidden lg:flex items-center space-x-1 lg:space-x-2 xl:space-x-3">
             {navItems.map((item) => (
               item.hasDropdown ? (
                 <div key={item.path} className="relative">
                   <button
                     onClick={toggleDropdown}
-                    className={`relative px-3 py-2 text-xs xl:text-sm font-medium transition-all duration-300 rounded-lg whitespace-nowrap group flex items-center gap-1 ${
+                    className={`relative px-2 lg:px-2.5 xl:px-3 py-2 text-sm lg:text-base font-medium transition-all duration-300 rounded-lg whitespace-nowrap group flex items-center gap-1 ${
                       location.pathname.startsWith('/committee') || location.pathname.includes('-committee')
                         ? "text-white bg-primary shadow-lg shadow-primary/25 transform scale-105"
                         : "text-foreground hover:text-primary hover:bg-primary/10 hover:shadow-md hover:scale-105"
@@ -64,7 +64,7 @@ const Navbar = () => {
                           key={dropdownItem.path}
                           to={dropdownItem.path}
                           onClick={() => setDropdownOpen(false)}
-                          className="block px-4 py-3 text-sm text-foreground hover:text-primary hover:bg-primary/10 transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg"
+                          className="block px-5 py-3 text-lg text-foreground hover:text-primary hover:bg-primary/10 transition-colors duration-200 first:rounded-t-lg last:rounded-b-lg"
                         >
                           {dropdownItem.name}
                         </Link>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 <Link
                   key={item.path}
                   to={item.path}
-                  className={`relative px-3 py-2 text-xs xl:text-sm font-medium transition-all duration-300 rounded-lg whitespace-nowrap group ${
+                  className={`relative px-2 lg:px-2.5 xl:px-3 py-2 text-sm lg:text-base font-medium transition-all duration-300 rounded-lg whitespace-nowrap group ${
                     location.pathname === item.path
                       ? "text-white bg-primary shadow-lg shadow-primary/25 transform scale-105"
                       : "text-foreground hover:text-primary hover:bg-primary/10 hover:shadow-md hover:scale-105"
@@ -114,7 +114,7 @@ const Navbar = () => {
             {navItems.map((item) => (
               item.hasDropdown ? (
                 <div key={item.path} className="space-y-1">
-                  <div className={`px-4 py-3 rounded-lg text-sm font-medium transition-all duration-300 group ${
+                  <div className={`px-5 py-3.5 rounded-lg text-lg font-medium transition-all duration-300 group ${
                     location.pathname.startsWith('/committee') || location.pathname.includes('-committee')
                       ? "text-white bg-primary shadow-md shadow-primary/25 transform scale-[1.02]"
                       : "text-foreground hover:text-primary hover:bg-primary/10 hover:shadow-sm hover:scale-[1.02] hover:translate-x-1"
@@ -134,7 +134,7 @@ const Navbar = () => {
                         key={dropdownItem.path}
                         to={dropdownItem.path}
                         onClick={closeMenu}
-                        className="block px-4 py-2 text-sm text-muted-foreground hover:text-primary hover:bg-primary/5 rounded-lg transition-all duration-200"
+                        className="block px-5 py-2.5 text-lg text-muted-foreground hover:text-primary hover:bg-primary/5 rounded-lg transition-all duration-200"
                       >
                         {dropdownItem.name}
                       </Link>
@@ -146,7 +146,7 @@ const Navbar = () => {
                   key={item.path}
                   to={item.path}
                   onClick={closeMenu}
-                  className={`block px-4 py-3 rounded-lg text-sm font-medium transition-all duration-300 group ${
+                  className={`block px-5 py-3.5 rounded-lg text-lg font-medium transition-all duration-300 group ${
                     location.pathname === item.path
                       ? "text-white bg-primary shadow-md shadow-primary/25 transform scale-[1.02]"
                       : "text-foreground hover:text-primary hover:bg-primary/10 hover:shadow-sm hover:scale-[1.02] hover:translate-x-1"

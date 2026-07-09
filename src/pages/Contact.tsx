@@ -72,7 +72,7 @@ const Contact = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 mt-12 border-t border-border pt-8">
             {/* Contact Information */}
             <ContentBox className="h-fit">
-              <h2 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8 text-center">Contact Details</h2>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 text-center">Contact Details</h2>
               
               <div className="space-y-4 sm:space-y-6">
                 {/* Contact List */}
@@ -84,16 +84,16 @@ const Contact = () => {
                         <span className="text-primary font-semibold text-base">OH</span>
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-semibold text-lg text-foreground mb-1">Dr. O. Hemakesavulu</h3>
-                        <p className="text-muted-foreground text-sm mb-2">Professor, EEE</p>
-                        <div className="flex flex-col gap-1.5">
+                        <h3 className="font-semibold text-xl sm:text-2xl text-foreground mb-1">Dr. O. Hemakesavulu</h3>
+                        <p className="text-muted-foreground text-base sm:text-lg mb-2">Professor, EEE</p>
+                        <div className="flex flex-col gap-2">
                           <a href="tel:+919441522066" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors group">
-                            <Phone className="w-4 h-4 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <span className="text-sm">+91 9441522066</span>
+                            <Phone className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            <span className="text-base sm:text-lg">+91 9441522066</span>
                           </a>
                           <a href="mailto:hkesavulu6@gmail.com" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors group">
-                            <Mail className="w-4 h-4 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <span className="text-sm break-words">hkesavulu6@gmail.com</span>
+                            <Mail className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            <span className="text-base sm:text-lg break-words">hkesavulu6@gmail.com</span>
                           </a>
                         </div>
                       </div>
@@ -107,16 +107,16 @@ const Contact = () => {
                         <span className="text-primary font-semibold text-base">SM</span>
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-semibold text-lg text-foreground mb-1">Dr. S. Muqthiar Ali</h3>
-                        <p className="text-muted-foreground text-sm mb-2">Assistant Professor, EEE</p>
-                        <div className="flex flex-col gap-1.5">
+                        <h3 className="font-semibold text-xl sm:text-2xl text-foreground mb-1">Dr. S. Muqthiar Ali</h3>
+                        <p className="text-muted-foreground text-base sm:text-lg mb-2">Assistant Professor, EEE</p>
+                        <div className="flex flex-col gap-2">
                           <a href="tel:+917799963786" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors group">
-                            <Phone className="w-4 h-4 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <span className="text-sm">+91 7799963786</span>
+                            <Phone className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            <span className="text-base sm:text-lg">+91 7799963786</span>
                           </a>
                           <a href="mailto:shaikmuq@gmail.com" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors group">
-                            <Mail className="w-4 h-4 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <span className="text-sm break-words">shaikmuq@gmail.com</span>
+                            <Mail className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            <span className="text-base sm:text-lg break-words">shaikmuq@gmail.com</span>
                           </a>
                         </div>
                       </div>
@@ -130,16 +130,16 @@ const Contact = () => {
                         <span className="text-primary font-semibold text-base">SV</span>
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-semibold text-lg text-foreground mb-1">Dr. S. Venkateswarlu</h3>
-                        <p className="text-muted-foreground text-sm mb-2">Assistant Professor, EEE</p>
-                        <div className="flex flex-col gap-1.5">
+                        <h3 className="font-semibold text-xl sm:text-2xl text-foreground mb-1">Dr. S. Venkateswarlu</h3>
+                        <p className="text-muted-foreground text-base sm:text-lg mb-2">Assistant Professor, EEE</p>
+                        <div className="flex flex-col gap-2">
                           <a href="tel:+917010256116" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors group">
-                            <Phone className="w-4 h-4 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <span className="text-sm">+91 7010256116</span>
+                            <Phone className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            <span className="text-base sm:text-lg">+91 7010256116</span>
                           </a>
                           <a href="mailto:chvreddy237@gmail.com" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors group">
-                            <Mail className="w-4 h-4 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <span className="text-sm break-words">chvreddy237@gmail.com</span>
+                            <Mail className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            <span className="text-base sm:text-lg break-words">chvreddy237@gmail.com</span>
                           </a>
                         </div>
                       </div>
@@ -153,16 +153,16 @@ const Contact = () => {
                         <span className="text-primary font-semibold text-base">NC</span>
                       </div>
                       <div className="flex-1 min-w-0">
-                        <h3 className="font-semibold text-lg text-foreground mb-1">Dr. N. Chinna Alluraiah</h3>
-                        <p className="text-muted-foreground text-sm mb-2">Assistant Professor, EEE</p>
-                        <div className="flex flex-col gap-1.5">
+                        <h3 className="font-semibold text-xl sm:text-2xl text-foreground mb-1">Dr. N. Chinna Alluraiah</h3>
+                        <p className="text-muted-foreground text-base sm:text-lg mb-2">Assistant Professor, EEE</p>
+                        <div className="flex flex-col gap-2">
                           <a href="tel:+919989298997" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors group">
-                            <Phone className="w-4 h-4 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <span className="text-sm">+91 9989298997</span>
+                            <Phone className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            <span className="text-base sm:text-lg">+91 9989298997</span>
                           </a>
                           <a href="mailto:alluraiah.207@gmail.com" className="flex items-center gap-2 text-foreground hover:text-primary transition-colors group">
-                            <Mail className="w-4 h-4 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
-                            <span className="text-sm break-words">alluraiah.207@gmail.com</span>
+                            <Mail className="w-5 h-5 text-primary flex-shrink-0 group-hover:scale-110 transition-transform" />
+                            <span className="text-base sm:text-lg break-words">alluraiah.207@gmail.com</span>
                           </a>
                         </div>
                       </div>
@@ -177,8 +177,8 @@ const Contact = () => {
                       <MapPin className="w-5 h-5 text-primary" />
                     </div>
                     <div className="flex-1 min-w-0">
-                      <h3 className="font-semibold text-base sm:text-lg text-foreground mb-2">Address</h3>
-                      <div className="text-muted-foreground space-y-1 text-sm sm:text-base">
+                      <h3 className="font-semibold text-xl sm:text-2xl text-foreground mb-3">Address</h3>
+                      <div className="text-muted-foreground space-y-2 text-base sm:text-lg">
                         <p>Department of Electrical & Electronics Engineering</p>
                         <p>Annamacharya University</p>
                         <p>Thallapaka Panchayath, New Boyanapalli</p>
@@ -192,13 +192,13 @@ const Contact = () => {
 
             {/* Contact Form */}
             <ContentBox>
-              <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Send us a Message</h2>
-              <p className="text-muted-foreground mb-4 sm:mb-6 text-sm sm:text-base">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6">Send us a Message</h2>
+              <p className="text-muted-foreground mb-6 sm:mb-8 text-base sm:text-lg">
                 Thank you for your interest in getting in touch with us. Please send your message here.
               </p>
               <form onSubmit={handleSubmit} className="space-y-4 sm:space-y-6">
                 <div className="space-y-2">
-                  <Label htmlFor="name">Name *</Label>
+                  <Label htmlFor="name" className="text-base sm:text-lg">Name *</Label>
                   <Input
                     id="name"
                     name="name"
@@ -206,12 +206,12 @@ const Contact = () => {
                     onChange={handleChange}
                     placeholder="Your full name"
                     required
-                    className="transition-all duration-300 focus:scale-[1.02]"
+                    className="transition-all duration-300 focus:scale-[1.02] text-base sm:text-lg py-6"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="email">Email *</Label>
+                  <Label htmlFor="email" className="text-base sm:text-lg">Email *</Label>
                   <Input
                     id="email"
                     name="email"
@@ -220,12 +220,12 @@ const Contact = () => {
                     onChange={handleChange}
                     placeholder="your.email@example.com"
                     required
-                    className="transition-all duration-300 focus:scale-[1.02]"
+                    className="transition-all duration-300 focus:scale-[1.02] text-base sm:text-lg py-6"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="subject">Subject *</Label>
+                  <Label htmlFor="subject" className="text-base sm:text-lg">Subject *</Label>
                   <Input
                     id="subject"
                     name="subject"
@@ -233,12 +233,12 @@ const Contact = () => {
                     onChange={handleChange}
                     placeholder="What is this regarding?"
                     required
-                    className="transition-all duration-300 focus:scale-[1.02]"
+                    className="transition-all duration-300 focus:scale-[1.02] text-base sm:text-lg py-6"
                   />
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="message">Message *</Label>
+                  <Label htmlFor="message" className="text-base sm:text-lg">Message *</Label>
                   <Textarea
                     id="message"
                     name="message"
@@ -247,13 +247,14 @@ const Contact = () => {
                     placeholder="Write your message here..."
                     required
                     rows={5}
-                    className="transition-all duration-300 focus:scale-[1.02] resize-none"
+                    className="transition-all duration-300 focus:scale-[1.02] resize-none text-base sm:text-lg p-4"
                   />
                 </div>
 
                 <Button 
                   type="submit" 
-                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 hover:scale-105"
+                  size="lg"
+                  className="w-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-300 hover:scale-105 text-lg h-14"
                   disabled={isSubmitting}
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}

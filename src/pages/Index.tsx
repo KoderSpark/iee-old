@@ -5,7 +5,6 @@ import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/homepage_image.jpg";
 import clgLogo from "@/assets/clg_logo.jpeg";
 import eeeLogo from "@/assets/eee_logo.jpg";
-import picture1 from "@/assets/Picture1.png";
 
 const Index = () => {
   return (
@@ -14,7 +13,7 @@ const Index = () => {
 
       <main className="flex-1">
         {/* Hero Section */}
-        <section className="relative bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground py-6 sm:py-12 lg:py-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
+        <section className="relative bg-gradient-to-br from-primary via-primary to-primary/90 text-primary-foreground pt-4 pb-6 sm:pt-6 sm:pb-10 lg:pt-8 lg:pb-12 px-4 sm:px-6 lg:px-8 overflow-hidden flex flex-col justify-center">
           {/* Animated Background Elements */}
           <div className="absolute inset-0 overflow-hidden">
             <div className="absolute -top-10 -left-10 w-40 h-40 bg-white/5 rounded-full animate-pulse"></div>
@@ -32,57 +31,46 @@ const Index = () => {
             ></div>
           </div>
 
-          <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-8 lg:gap-12 items-center relative z-10">
-            <div className="text-center lg:text-left order-2 lg:order-1 animate-fade-in">
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 sm:mb-4 leading-snug animate-scale-in">
-                <span className="inline-block hover:scale-105 transition-transform duration-300">
-                  International Conference on
-                </span>
-                <span className="block pb-2 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent animate-gradient-x">
-                  Computational and Emerging Technologies
-                </span>
-                <span className="block">for Sustainable Energy</span>
-                <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2 bg-gradient-to-r from-yellow-200 via-white to-yellow-200 bg-clip-text text-transparent animate-pulse">
-                  (ICCETSE 2026)
-                </span>
-              </h1>
-              <p
-                className="text-lg sm:text-xl mb-4 sm:mb-6 animate-slide-up"
-                style={{ animationDelay: "0.5s" }}
-              >
-                November 14th & 15th 2026 (Hybrid Mode)
-              </p>
-              <p
-                className="text-base sm:text-lg mb-6 sm:mb-8 opacity-90 animate-slide-up"
-                style={{ animationDelay: "0.7s" }}
-              >
-                Organized by Department of Electrical & Electronics Engineering,
-                Annamacharya University
-              </p>
-              <div
-                className="animate-slide-up"
-                style={{ animationDelay: "0.9s" }}
-              >
-                <Button
-                  variant="secondary"
-                  size="lg"
-                  className="bg-white text-primary hover:bg-white/90 hover:scale-105 hover:shadow-xl transition-all duration-300 w-full sm:w-auto group"
-                >
-                  <span className="group-hover:animate-pulse">
-                    Submit (Microsoft CMT)
-                  </span>
-                </Button>
-              </div>
+          <div className="max-w-5xl mx-auto flex flex-col items-center justify-center text-center relative z-10 animate-fade-in pt-0 pb-4">
+            <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 sm:mb-3 leading-snug animate-scale-in">
+              <span className="inline-block hover:scale-105 transition-transform duration-300">
+                International Conference on
+              </span>
+              <span className="block pb-1 sm:pb-2 bg-gradient-to-r from-white via-blue-100 to-white bg-clip-text text-transparent animate-gradient-x">
+                Computational and Emerging Technologies
+              </span>
+              <span className="block">for Sustainable Energy</span>
+              <span className="block text-xl sm:text-2xl md:text-3xl lg:text-4xl mt-2 bg-gradient-to-r from-yellow-200 via-white to-yellow-200 bg-clip-text text-transparent animate-pulse">
+                (ICCETSE 2026)
+              </span>
+            </h1>
+            <p
+              className="text-lg sm:text-xl font-medium mb-2 sm:mb-3 animate-slide-up"
+              style={{ animationDelay: "0.5s" }}
+            >
+              November 14th & 15th 2026 (Hybrid Mode)
+            </p>
+            <div
+              className="text-base sm:text-lg font-bold mb-4 sm:mb-5 opacity-90 animate-slide-up max-w-4xl flex flex-col items-center gap-0.5 sm:gap-1"
+              style={{ animationDelay: "0.7s" }}
+            >
+              <span className="mb-1">Organized by</span>
+              <span className="text-center">Department of Electrical & Electronics Engineering, Annamacharya University,</span>
+              <span className="text-center">Rajampet, Andhra Pradesh, India</span>
             </div>
-            <div className="order-1 lg:order-2 animate-float">
-              <div className="relative group">
-                <div className="absolute -inset-4 bg-gradient-to-r from-white/20 to-transparent rounded-xl blur-xl group-hover:blur-2xl transition-all duration-500 opacity-50 group-hover:opacity-75"></div>
-                <img
-                  src={heroImage}
-                  alt="Computational, Emerging Technologies and Sustainability"
-                  className="relative w-full max-w-md sm:max-w-lg lg:max-w-full mx-auto rounded-xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 hover:rotate-1"
-                />
-              </div>
+            <div
+              className="animate-slide-up flex justify-center w-full"
+              style={{ animationDelay: "0.9s" }}
+            >
+              <Button
+                variant="secondary"
+                size="lg"
+                className="bg-white text-primary hover:bg-white/90 hover:scale-105 hover:shadow-xl transition-all duration-300 w-full sm:w-auto group text-base sm:text-lg font-bold px-6 py-5"
+              >
+                <span className="group-hover:animate-pulse">
+                  Submit (Microsoft CMT)
+                </span>
+              </Button>
             </div>
           </div>
         </section>
@@ -90,14 +78,14 @@ const Index = () => {
         {/* Main Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12">
           <ContentBox className="animate-fade-in">
-            <h2 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6 text-center bg-gradient-to-r from-primary via-blue-600 to-primary bg-clip-text text-transparent animate-gradient-x">
-              ICCETSE 2026
-            </h2>
             <div className="text-foreground leading-relaxed animate-slide-up text-justify">
-              <h3 className="text-xl font-semibold text-primary mb-2">
-                About the conference:
+              <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-3">
+                About the ICCETSE - 2026
               </h3>
-              <div className="space-y-3 sm:space-y-4 text-base sm:text-lg">
+              <h4 className="text-xl sm:text-2xl font-bold text-foreground/90 mb-6 sm:mb-8">
+                International Conference on Computational and Emerging Technologies for Sustainable Energy (ICCETSE 2026)
+              </h4>
+              <div className="space-y-4 sm:space-y-6 text-xl sm:text-2xl">
                 <p>
                   The rapid rise of disruptive technologies across various
                   branches of engineering is poised to reshape industries in the
@@ -135,15 +123,14 @@ const Index = () => {
           {/* Conference Proceedings */}
           <div className="mt-8 animate-fade-in">
             <ContentBox className="hover:shadow-xl transition-all duration-500 hover:scale-[1.02]">
-              <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
+              <h2 className="text-3xl sm:text-4xl font-bold mb-6 pb-2 bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent">
                 Conference Proceedings
               </h2>
               <div className="flex items-center justify-between flex-wrap gap-6">
                 <div className="animate-slide-up">
-                  <p className="text-foreground text-lg hover:text-primary transition-colors duration-300 leading-relaxed">
+                  <p className="text-foreground text-xl sm:text-2xl hover:text-primary transition-colors duration-300 leading-relaxed">
                     All accepted and presented papers are planned to be published in the{" "}
-                    <img src={picture1} alt="Springer" className="h-6 object-contain inline-block mx-1 align-middle -mt-1" />{" "}
-                    Applied Sciences and Engineering proceedings, subject to approval.
+                    <strong>Atlantis Press</strong> proceedings, subject to approval.
                   </p>
                 </div>
               </div>
@@ -153,9 +140,6 @@ const Index = () => {
           {/* About Annamacharya University */}
           <div className="mt-8 animate-fade-in">
             <ContentBox className="hover:shadow-xl transition-all duration-500 hover:scale-[1.01]">
-              <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent text-center">
-                Annamacharya University : Rajampet
-              </h2>
               <div className="grid lg:grid-cols-[300px,1fr] gap-8 items-start">
                 <div className="flex justify-center">
                   <div className="text-center">
@@ -173,13 +157,13 @@ const Index = () => {
                         />
                       </div>
                     </a>
-                    <h3 className="text-xl font-semibold">ANNAMACHARYA</h3>
-                    <p className="text-sm text-muted-foreground">UNIVERSITY</p>
+                    <h3 className="text-2xl font-bold">ANNAMACHARYA</h3>
+                    <p className="text-base font-medium text-muted-foreground">UNIVERSITY</p>
                   </div>
                 </div>
-                <div className="text-foreground leading-relaxed space-y-4 text-justify">
-                  <h3 className="text-xl font-semibold text-primary mb-3">
-                    About the University:
+                <div className="text-foreground leading-relaxed space-y-5 text-justify text-xl sm:text-2xl">
+                  <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+                    About the University
                   </h3>
                   <p>
                     Annamacharya Institute of Technology and Sciences (AITS),
@@ -244,9 +228,6 @@ const Index = () => {
           {/* About EEE Department */}
           <div className="mt-8 animate-fade-in">
             <ContentBox className="hover:shadow-xl transition-all duration-500 hover:scale-[1.01]">
-              <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-primary to-green-600 bg-clip-text text-transparent text-center">
-                ELECTRICAL AND ELECTRONICS ENGINEERING DEPARTMENT
-              </h2>
               <div className="grid lg:grid-cols-[300px,1fr] gap-8 items-start">
                 <div className="flex justify-center">
                   <div className="text-center">
@@ -270,9 +251,9 @@ const Index = () => {
                     </p> */}
                   </div>
                 </div>
-                <div className="text-foreground leading-relaxed space-y-4 text-justify">
-                  <h3 className="text-xl font-semibold text-primary mb-3">
-                    ELECTRICAL AND ELECTRONICS ENGINEERING DEPARTMENT
+                <div className="text-foreground leading-relaxed space-y-5 text-justify text-xl sm:text-2xl">
+                  <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
+                    About the Department
                   </h3>
                   <p>
                     The Department of Electrical and Electronics Engineering

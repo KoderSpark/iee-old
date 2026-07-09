@@ -53,8 +53,8 @@ const PastConferences = () => {
         <div className="max-w-7xl mx-auto px-4 py-12">
           <ContentBox>
             <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-4">Past Conferences</h2>
-              <p className="text-muted-foreground text-lg max-w-3xl mx-auto">
+              <h2 className="text-4xl sm:text-5xl font-bold mb-6">Past Conferences</h2>
+              <p className="text-muted-foreground text-xl sm:text-2xl max-w-4xl mx-auto leading-relaxed">
                 Explore related conferences and publication platforms. ICCETS
                 2026 proceedings will be published in E3S Web of Conferences, an
                 Open Access publication series dedicated to archiving conference
@@ -79,23 +79,23 @@ const PastConferences = () => {
                           <img src={picture1} alt={conf.year} className="w-full h-full object-contain p-1" />
                         </div>
                         <div>
-                          <CardTitle className="text-2xl font-bold text-foreground group-hover:text-primary transition-colors">
+                          <CardTitle className="text-3xl font-bold text-foreground group-hover:text-primary transition-colors">
                             {conf.title}
                           </CardTitle>
-                          <p className="text-lg text-muted-foreground mt-1">
+                          <p className="text-xl text-muted-foreground mt-2">
                             {conf.fullTitle}
                           </p>
                         </div>
                       </div>
-                      <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                        <Calendar className="w-4 h-4" />
+                      <div className="flex items-center gap-2 text-base text-muted-foreground">
+                        <Calendar className="w-5 h-5" />
                         <span>{conf.year}</span>
                       </div>
                     </div>
                   </CardHeader>
 
-                  <CardContent className="space-y-6">
-                    <p className="text-foreground leading-relaxed">
+                  <CardContent className="space-y-8 mt-2">
+                    <p className="text-foreground text-lg sm:text-xl leading-relaxed">
                       {conf.description}
                     </p>
 
@@ -107,12 +107,12 @@ const PastConferences = () => {
                           handleDownload(conf.brochure, `${conf.title}-BROCHURE.pdf`)
                         }
                       >
-                        <FileText className="w-5 h-5 text-primary" />
+                        <FileText className="w-6 h-6 text-primary" />
                         <div>
-                          <p className="font-medium text-sm">
+                          <p className="font-medium text-base sm:text-lg">
                             Conference Brochure
                           </p>
-                          <p className="text-sm text-muted-foreground">
+                          <p className="text-base text-muted-foreground">
                             Click to download PDF
                           </p>
                         </div>
@@ -123,12 +123,12 @@ const PastConferences = () => {
                         className="flex items-center gap-3 p-3 bg-muted/50 rounded-lg cursor-pointer hover:bg-muted transition"
                         onClick={() => window.open(conf.link, "_blank")}
                       >
-                        <BookOpen className="w-5 h-5 text-primary" />
+                        <BookOpen className="w-6 h-6 text-primary" />
                         <div>
-                          <p className="font-medium text-sm">
+                          <p className="font-medium text-base sm:text-lg">
                             Access Conference Details
                           </p>
-                          <p className="text-sm text-muted-foreground">
+                          <p className="text-base text-muted-foreground">
                             View event details
                           </p>
                         </div>
@@ -136,13 +136,14 @@ const PastConferences = () => {
                     </div>
 
                     {/* Indexed Publication */}
-                    <div className="pt-4 border-t border-border">
+                    <div className="pt-6 border-t border-border">
                       <Button
-                        className="w-full group/btn bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300"
+                        size="lg"
+                        className="w-full group/btn bg-gradient-to-r from-primary to-primary/80 hover:from-primary/90 hover:to-primary text-primary-foreground shadow-lg hover:shadow-xl transition-all duration-300 text-lg h-14"
                         onClick={() => handleDownload("/Springer Front Pages.pdf", "Springer Front Pages.pdf")}
                       >
                         <span>CISC Conference</span>
-                        <Download className="w-4 h-4 ml-2 group-hover/btn:translate-y-1 transition-transform" />
+                        <Download className="w-5 h-5 ml-2 group-hover/btn:translate-y-1 transition-transform" />
                       </Button>
                     </div>
                   </CardContent>

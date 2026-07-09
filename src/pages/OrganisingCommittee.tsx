@@ -5,7 +5,7 @@ import PageBanner from "@/components/PageBanner";
 
 const OrganisingCommittee = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-background text-[1.05rem] sm:text-[1.1rem] leading-relaxed">
+    <div className="min-h-screen flex flex-col bg-background text-lg sm:text-xl leading-relaxed">
       <Navbar />
 
       <main className="flex-1">
@@ -15,25 +15,25 @@ const OrganisingCommittee = () => {
 
 
           <ContentBox>
-            <div className="space-y-10 sm:space-y-12 p-4 sm:p-8">
+            <div className="space-y-12 sm:space-y-16 p-4 sm:p-8">
               
               <div className="text-center">
-                <h1 className="text-2xl sm:text-3xl font-bold text-primary">
+                <h1 className="text-4xl sm:text-5xl font-bold text-primary">
                   Organizing Committee
                 </h1>
               </div>
 
               <div className="text-center">
-                <h2 className="text-xl font-bold text-primary mb-3">Chief Patron(s)</h2>
-                <div className="space-y-1 text-sm sm:text-base">
+                <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Chief Patron(s)</h2>
+                <div className="space-y-2 text-lg sm:text-xl">
                   <p>Dr. C. Gangi Reddy, Chancellor, Annamacharya University, Rajampet</p>
                   <p>Sri. C. Abhishek Reddy, Pro-chancellor, Annamacharya University, Rajampet</p>
                 </div>
               </div>
 
               <div className="text-center">
-                <h2 className="text-xl font-bold text-primary mb-3">Patron(s)</h2>
-                <div className="space-y-1 text-sm sm:text-base">
+                <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Patron(s)</h2>
+                <div className="space-y-2 text-lg sm:text-xl">
                   <p>Dr. E. Sai Baba Reddy, Vice-Chancellor, Annamacharya University, Rajampet</p>
                   <p>Dr. N. Mallikarjuna Rao, Registrar, Annamacharya University, Rajampet</p>
                 </div>
@@ -41,8 +41,8 @@ const OrganisingCommittee = () => {
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
                 <div>
-                  <h2 className="text-xl font-bold text-primary mb-3">General Chair(s)</h2>
-                  <div className="space-y-2 text-sm sm:text-base">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">General Chair(s)</h2>
+                  <div className="space-y-3 text-lg sm:text-xl">
                     <p>Dr. S. M.V. Narayana, Principal, AITS, Rajampet</p>
                     <p>Dr. Bhuvan Unhelkar, Professor, University of South Florida, USA</p>
                     <p>Dr. Ton Duc Do, Professor, Nazarbayev University, Astana, Kazakhstan</p>
@@ -51,8 +51,8 @@ const OrganisingCommittee = () => {
                 </div>
 
                 <div>
-                  <h2 className="text-xl font-bold text-primary mb-3">Program Chair(s)</h2>
-                  <div className="space-y-2 text-sm sm:text-base">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Program Chair(s)</h2>
+                  <div className="space-y-3 text-lg sm:text-xl">
                     <p>Dr. P. Balachennaiah , HoD- EEE, Annamacharya University, Rajampet</p>
                     <p>Dr. B.K Panigrahi, Professor, IIT Delhi</p>
                     <p>Dr. Ir. Krismadinata, Professor and Rector, Universitas Negeri Padang, Indonesia</p>
@@ -61,24 +61,24 @@ const OrganisingCommittee = () => {
                 </div>
 
                 <div>
-                  <h2 className="text-xl font-bold text-primary mb-3">Organizing Convenor(s)</h2>
-                  <div className="space-y-2 text-sm sm:text-base">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Organizing Convenor(s)</h2>
+                  <div className="space-y-3 text-lg sm:text-xl">
                     <p>Dr. M. Padma Lalitha, Professor, EEE, Annamacharya University, Rajampet</p>
                     <p>Dr. S. Muqthiar Ali, Asst. Professor, EEE, Annamacharya University, Rajampet</p>
                   </div>
                 </div>
 
                 <div>
-                  <h2 className="text-xl font-bold text-primary mb-3">Conference Secretary</h2>
-                  <div className="space-y-2 text-sm sm:text-base">
+                  <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Conference Secretary</h2>
+                  <div className="space-y-3 text-lg sm:text-xl">
                     <p>Dr. O. Hemakesavulu, Professor, EEE, Annamacharya University, Rajampet</p>
                   </div>
                 </div>
               </div>
 
-              <div className="pt-4">
-                <h2 className="text-xl sm:text-2xl font-bold text-primary text-center mb-6">International Advisory Committee</h2>
-                <div className="columns-1 md:columns-2 gap-8 text-sm sm:text-base space-y-2 text-left">
+              <div className="pt-8">
+                <h2 className="text-3xl sm:text-4xl font-bold text-primary text-center mb-8">International Advisory Committee</h2>
+                <div className="columns-1 md:columns-2 gap-8 text-lg sm:text-xl space-y-3 text-left">
                   <p className="break-inside-avoid">Dr. Apel Mahmud, Professor, Flinders University, Australia</p>
                   <p className="break-inside-avoid">Dr. Yanxia Sun, Professor, University of Johannesburg, South Africa</p>
                   <p className="break-inside-avoid">Dr. Meisam Mahdavi, Professor, University of Jaen, Spain</p>
@@ -92,9 +92,9 @@ const OrganisingCommittee = () => {
                 </div>
               </div>
 
-              <div className="pt-4">
-                <h2 className="text-xl sm:text-2xl font-bold text-primary text-center mb-6">National Advisory Committee</h2>
-                <div className="columns-1 md:columns-2 gap-8 text-sm sm:text-base space-y-2 text-left">
+              <div className="pt-8">
+                <h2 className="text-3xl sm:text-4xl font-bold text-primary text-center mb-8">National Advisory Committee</h2>
+                <div className="columns-1 md:columns-2 gap-8 text-lg sm:text-xl space-y-3 text-left">
                   <p className="break-inside-avoid">Dr. B. Ravi Kumar, Professor, IIT Hyderabad</p>
                   <p className="break-inside-avoid">Dr. Chandrashekhar N. Bhende, Professor, IIT Bhubaneswar</p>
                   <p className="break-inside-avoid">Dr. Abdul Gafoor Shaik, Professor, IIT Jodhpur</p>
@@ -112,9 +112,9 @@ const OrganisingCommittee = () => {
                 </div>
               </div>
               
-              <div className="pt-4">
-                <h2 className="text-xl sm:text-2xl font-bold text-primary text-center mb-6">Technical Program Committee</h2>
-                <div className="columns-1 md:columns-2 gap-8 text-sm sm:text-base space-y-2 text-left">
+              <div className="pt-8">
+                <h2 className="text-3xl sm:text-4xl font-bold text-primary text-center mb-8">Technical Program Committee</h2>
+                <div className="columns-1 md:columns-2 gap-8 text-lg sm:text-xl space-y-3 text-left">
                   <p className="break-inside-avoid">Dr. Andriy Lotnyk, Leibniz Institute of Surface Engineering, Germany</p>
                   <p className="break-inside-avoid">Dr. Karthikeyan.T, University of Technology & Applied Sciences, Muscat.</p>
                   <p className="break-inside-avoid">Dr. Mahajan Sagar Bhaskar, Prince Sultan University, Saudi Arabia</p>
@@ -135,9 +135,9 @@ const OrganisingCommittee = () => {
                 </div>
               </div>
 
-              <div className="pt-4">
-                <h2 className="text-xl sm:text-2xl font-bold text-primary text-center mb-6">Publication Committee</h2>
-                <div className="columns-1 md:columns-2 gap-8 text-sm sm:text-base space-y-2 text-left">
+              <div className="pt-8">
+                <h2 className="text-3xl sm:text-4xl font-bold text-primary text-center mb-8">Publication Committee</h2>
+                <div className="columns-1 md:columns-2 gap-8 text-lg sm:text-xl space-y-3 text-left">
                   <p className="break-inside-avoid">Dr. G.Vijayakumar, University of Hertfordshire, UK</p>
                   <p className="break-inside-avoid">Mr. Bhushan B Chavan, Director of Cybersecurity Eng, MGM Resorts International, USA</p>
                   <p className="break-inside-avoid">Mr. Karthiganesh, Director, Kwantumg research lab, Bengaluru</p>
