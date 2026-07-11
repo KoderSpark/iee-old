@@ -78,7 +78,7 @@ const Index = () => {
         {/* Main Content */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-12">
           <ContentBox className="animate-fade-in">
-            <div className="text-foreground leading-relaxed animate-slide-up text-justify">
+            <div className="text-foreground leading-relaxed animate-slide-up">
               <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-3">
                 About the ICCETSE - 2026
               </h3>
@@ -161,7 +161,7 @@ const Index = () => {
                     <p className="text-base font-medium text-muted-foreground">UNIVERSITY</p>
                   </div>
                 </div>
-                <div className="text-foreground leading-relaxed space-y-5 text-justify text-xl sm:text-2xl">
+                <div className="text-foreground leading-relaxed space-y-5 text-xl sm:text-2xl">
                   <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
                     About the University
                   </h3>
@@ -251,7 +251,7 @@ const Index = () => {
                     </p> */}
                   </div>
                 </div>
-                <div className="text-foreground leading-relaxed space-y-5 text-justify text-xl sm:text-2xl">
+                <div className="text-foreground leading-relaxed space-y-5 text-xl sm:text-2xl">
                   <h3 className="text-3xl sm:text-4xl font-bold text-primary mb-6">
                     About the Department
                   </h3>
