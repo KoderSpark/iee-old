@@ -166,27 +166,27 @@ const Index = () => {
                     About the University
                   </h3>
                   <p>
-                    Annamacharya Institute of Technology and Sciences (AITS),
+                    Anna&shy;macharya Institute of Technology and Sciences (AITS),
                     Rajampet, is the first institution established by the
-                    Annamacharya Educational Trust in 1998, near Tallapaka—the
-                    birthplace of the revered singing saint, Sri Annamacharya.
+                    Anna&shy;macharya Educational Trust in 1998, near Tallapaka, the
+                    birthplace of the revered singing saint, Sri Anna&shy;macharya.
                     The institute is approved by AICTE, New Delhi, and
-                    affiliated with Jawaharlal Nehru Technological University
-                    Anantapur (JNTUA), Ananthapuramu. AITS, known for providing
+                    affiliated with Jawa&shy;harlal Nehru Tech&shy;no&shy;logical Uni&shy;versity
+                    Ananta&shy;pur (JNTUA), Anantha&shy;puramu. AITS, known for providing
                     quality technical and management education, has been
                     Autonomous since 2011 and is accredited by NAAC (A+ Grade)
                     and NBA. It is recognized under Sections 2(f) and 12(B) of
                     the UGC Act, 1956.
                   </p>
                   <p>
-                    The institute has been upgraded to Annamacharya University
-                    under the brownfield category, as per the Andhra Pradesh
-                    Private Universities (Establishment and Regulation) Act,
-                    2016 (Act No. 3 of 2016), and its amendment (Act No. 2 of
-                    2024). The University establishment was officially notified
+                    The institute has been upgraded to Anna&shy;macharya Uni&shy;versity
+                    under the brown&shy;field cate&shy;gory, as per the Andhra Pradesh
+                    Private Uni&shy;versities (Estab&shy;lish&shy;ment and Regu&shy;la&shy;tion) Act,
+                    2016 (Act No. 3 of 2016), and its amend&shy;ment (Act No. 2 of
+                    2024). The Uni&shy;versity estab&shy;lish&shy;ment was offi&shy;cially notified
                     via G.O.Ms. No. 13 (13.03.2024) and G.O.Ms. No. 19
-                    (10.07.2024). Furthermore, Annamacharya University is
-                    recognized by the UGC under Section 2(f) of the UGC Act,
+                    (10.07.2024). Further&shy;more, Anna&shy;macharya Uni&shy;versity is
+                    recog&shy;nized by the UGC under Section 2(f) of the UGC Act,
                     1956.
                   </p>
                   <p>
@@ -209,9 +209,9 @@ const Index = () => {
                     <li>Electronics and Communication Engineering</li>
                     <li>Mechanical Engineering</li>
                     <li>
-                      Computer Science and Engineering and allied branches
+                      Computer Science and Engi&shy;neer&shy;ing and allied branches
                       (AIDS, AIML, CSE(AI), CSE(AIML), CSE(DS), CSE(IoT
-                      Cybersecurity with Blockchain Technology))
+                      Cyber&shy;secu&shy;rity with Block&shy;chain Tech&shy;no&shy;logy))
                     </li>
                   </ul>
                   <p>
