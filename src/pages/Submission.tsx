@@ -94,7 +94,7 @@ const Submission = () => {
               <Card className="hover:shadow-lg transition-all duration-300">
                 <CardContent className="space-y-4 pt-6">
                   <p className="text-foreground text-lg sm:text-xl lg:text-2xl text-center font-medium">
-                    We recommend authors to use WORD template.
+                    We recommend authors to use Atlantis Press template.
                   </p>
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto mt-6">
@@ -103,14 +103,14 @@ const Submission = () => {
                       className="w-full justify-between group bg-primary hover:bg-primary/90 text-base sm:text-lg h-14"
                       onClick={() => {
                         const link = document.createElement("a");
-                        link.href = "/ICCETS_2026_Template_word.docx"; 
-                        link.download = "ICCETS_2026_Template_word.docx";
+                        link.href = "/Atlantis-Press-TEMPLATE.docx"; 
+                        link.download = "Atlantis-Press-TEMPLATE.docx";
                         document.body.appendChild(link);
                         link.click();
                         document.body.removeChild(link);
                       }}
                     >
-                      Template: MS Word
+                      Template: Atlantis Press
                       <Download className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
                     </Button>
 
