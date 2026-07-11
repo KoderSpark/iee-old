@@ -119,7 +119,7 @@ const Speakers = () => {
                       )}
                       
                       {speaker.bio && (
-                        <p className="text-gray-600 text-base sm:text-lg leading-relaxed">
+                        <p className="text-gray-600 text-base sm:text-lg leading-relaxed text-justify">
                           {speaker.bio}
                         </p>
                       )}

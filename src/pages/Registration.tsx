@@ -60,7 +60,7 @@ const Registration = () => {
                 </div>
                 
                 <div className="mt-6 sm:mt-8 p-4 sm:p-6 bg-yellow-50 dark:bg-yellow-950/20 rounded-lg border border-yellow-200 dark:border-yellow-800">
-                  <p className="text-foreground text-lg sm:text-xl leading-relaxed">
+                  <p className="text-foreground text-lg sm:text-xl leading-relaxed text-justify">
                     <strong>Important Note:</strong> All accepted and presented papers are planned to be published in the Atlantis Press proceedings, subject to approval. Payment link will be provided to the corresponding Author once the paper is accepted.
                   </p>
                 </div>

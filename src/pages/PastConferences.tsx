@@ -54,12 +54,7 @@ const PastConferences = () => {
           <ContentBox>
             <div className="text-center mb-12">
               <h2 className="text-4xl sm:text-5xl font-bold mb-6">Past Conferences</h2>
-              <p className="text-muted-foreground text-xl sm:text-2xl max-w-4xl mx-auto leading-relaxed">
-                Explore related conferences and publication platforms. ICCETS
-                2026 proceedings will be published in E3S Web of Conferences, an
-                Open Access publication series dedicated to archiving conference
-                proceedings in Environment, Energy and Earth Sciences.
-              </p>
+
             </div>
 
             <div className="grid gap-8">
@@ -95,7 +90,7 @@ const PastConferences = () => {
                   </CardHeader>
 
                   <CardContent className="space-y-8 mt-2">
-                    <p className="text-foreground text-lg sm:text-xl leading-relaxed">
+                    <p className="text-foreground text-lg sm:text-xl leading-relaxed text-justify">
                       {conf.description}
                     </p>
 

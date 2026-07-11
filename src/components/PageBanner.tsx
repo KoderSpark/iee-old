@@ -14,7 +14,13 @@ const PageBanner = ({ title }: PageBannerProps) => {
               <span className="block text-xl sm:text-2xl lg:text-2xl xl:text-[28px] font-semibold mt-2">(ICCETSE 2026)</span>
               <span className="block text-lg sm:text-xl lg:text-xl xl:text-[22px] font-semibold mt-3">November 14th & 15th 2026 (Hybrid Mode)</span>
               <span className="block text-base sm:text-lg lg:text-lg xl:text-[19px] font-normal mt-3 opacity-90">
-                Organized by Department of Electrical & Electronics Engineering, Annamacharya University
+                Organized by
+              </span>
+              <span className="block text-base sm:text-lg lg:text-lg xl:text-[19px] font-normal opacity-90">
+                Department of Electrical & Electronics Engineering, Annamacharya University,
+              </span>
+              <span className="block text-base sm:text-lg lg:text-lg xl:text-[19px] font-normal opacity-90">
+                Rajampet, Andhra Pradesh, India
               </span>
             </>
           )}

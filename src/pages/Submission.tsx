@@ -127,7 +127,7 @@ const Submission = () => {
                   <div className="mt-8 space-y-6">
                     <Card className="bg-white dark:bg-surface hover:shadow-sm transition-all duration-200">
                       <CardContent className="p-6">
-                        <p className="text-foreground text-lg sm:text-xl leading-relaxed">
+                        <p className="text-foreground text-lg sm:text-xl leading-relaxed text-justify">
                           The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.
                         </p>
                       </CardContent>
@@ -135,7 +135,7 @@ const Submission = () => {
 
                     <Card className="bg-white dark:bg-surface hover:shadow-sm transition-all duration-200">
                       <CardContent className="p-6">
-                        <p className="text-foreground text-lg sm:text-xl leading-relaxed">
+                        <p className="text-foreground text-lg sm:text-xl leading-relaxed text-justify">
                           The authors will need to register their email with CMT to submit paper to ICCETSE-2026. Here is a link how to create a CMT account: <a href="https://cmt3.research.microsoft.com/docs/help/general/account-creation.html" target="_blank" rel="noreferrer" className="text-primary hover:underline break-all">https://cmt3.research.microsoft.com/docs/help/general/account-creation.html</a>
                         </p>
                       </CardContent>
@@ -150,7 +150,7 @@ const Submission = () => {
                   <CardTitle className="text-3xl text-orange-600">Paper Submission & Review Policy</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-4">
-                  <p className="text-foreground text-xl sm:text-2xl leading-relaxed">
+                  <p className="text-foreground text-xl sm:text-2xl leading-relaxed text-justify">
                     All submissions underwent a rigorous peer-review process evaluating originality, technical quality, scientific contribution, clarity, and relevance. Authors were required to clearly present the research problem, contributions, and related work. Acceptance decisions were based on reviewers' evaluations and Program Committee recommendations. All manuscripts were screened using plagiarism detection tools. Papers with plagiarism or other ethical violations were rejected.
                   </p>
                 </CardContent>

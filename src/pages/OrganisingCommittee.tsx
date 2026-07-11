@@ -43,35 +43,37 @@ const OrganisingCommittee = () => {
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">General Chair(s)</h2>
                   <div className="space-y-3 text-lg sm:text-xl">
-                    <p>Dr. S. M.V. Narayana, Principal, AITS, Rajampet</p>
+                    <p>Dr. S. M.V. Narayana, Dean, School of Engineering, AU, Rajampet</p>
+                    <p>Dr. P. Balachennaiah , HoD- EEE, Annamacharya University, Rajampet</p>
                     <p>Dr. Bhuvan Unhelkar, Professor, University of South Florida, USA</p>
                     <p>Dr. Ton Duc Do, Professor, Nazarbayev University, Astana, Kazakhstan</p>
-                    <p>Dr. Nalin Behari Dev Choudhury, Professor, NIT, Silchar</p>
+                    <p>Dr. B.K Panigrahi, Professor, IIT Delhi</p>
                   </div>
                 </div>
 
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Program Chair(s)</h2>
                   <div className="space-y-3 text-lg sm:text-xl">
-                    <p>Dr. P. Balachennaiah , HoD- EEE, Annamacharya University, Rajampet</p>
-                    <p>Dr. B.K Panigrahi, Professor, IIT Delhi</p>
-                    <p>Dr. Ir. Krismadinata, Professor and Rector, Universitas Negeri Padang, Indonesia</p>
+                    <p>Dr. M. Padma Lalitha, Professor, EEE, Annamacharya University, Rajampet</p>
+                    <p>Dr. P. Gopi, Annamacharya University, Rajampet</p>
+                    <p>Dr. K. Vijaya Bhaskar , Annamacharya University, Rajampet</p>
                     <p>Dr. S. Albert Alexander, Professor, EEE, VIT, Vellore</p>
+                    <p>Dr.K. Vaisakh, Professor, Andhra University, Vizag</p>
                   </div>
                 </div>
 
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Organizing Convenor(s)</h2>
                   <div className="space-y-3 text-lg sm:text-xl">
-                    <p>Dr. M. Padma Lalitha, Professor, EEE, Annamacharya University, Rajampet</p>
-                    <p>Dr. S. Muqthiar Ali, Asst. Professor, EEE, Annamacharya University, Rajampet</p>
+                    <p>Dr. O. Hemakesavulu, Professor, EEE, Annamacharya University, Rajampet</p>
+                    <p>Dr. S. Venkateswarlu Reddy, AU, Rajampet</p>
                   </div>
                 </div>
 
                 <div>
                   <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-4">Conference Secretary</h2>
                   <div className="space-y-3 text-lg sm:text-xl">
-                    <p>Dr. O. Hemakesavulu, Professor, EEE, Annamacharya University, Rajampet</p>
+                    <p>Dr. S. Muqthiar Ali, Asst. Professor, EEE, Annamacharya University, Rajampet</p>
                   </div>
                 </div>
               </div>
@@ -105,7 +107,6 @@ const OrganisingCommittee = () => {
                   <p className="break-inside-avoid">Dr. K. R. Murali Mohan, Rtd, Scientist-G, DST</p>
                   <p className="break-inside-avoid">Dr. N.V Srikanth Professor, NIT Warangal</p>
                   <p className="break-inside-avoid">Dr. M. Suryakalavathi, Professor, JNTUH</p>
-                  <p className="break-inside-avoid">Dr. K. Vaisakh, Professor, Andhra University</p>
                   <p className="break-inside-avoid">Dr. P. Sujatha, Professor, JNTUA</p>
                   <p className="break-inside-avoid">Dr. C. Shoba Bindu, Professor, JNTUA</p>
                   <p className="break-inside-avoid">Dr. V.C. Usha Reddy, Associate Professor, SVU</p>
@@ -130,8 +131,6 @@ const OrganisingCommittee = () => {
                   <p className="break-inside-avoid">Dr. S.Sarada, AU, Rajampet</p>
                   <p className="break-inside-avoid">Dr.K. Harinath Reddy, AU, Rajampet</p>
                   <p className="break-inside-avoid">Dr. P. Suresh Babu, AU, Rajampet</p>
-                  <p className="break-inside-avoid">Dr. C. Ganesh, AU, Rajampet</p>
-                  <p className="break-inside-avoid">Dr. N. Chinna Alluraiah, AU, Rajampet</p>
                 </div>
               </div>
 
@@ -141,12 +140,13 @@ const OrganisingCommittee = () => {
                   <p className="break-inside-avoid">Dr. G.Vijayakumar, University of Hertfordshire, UK</p>
                   <p className="break-inside-avoid">Mr. Bhushan B Chavan, Director of Cybersecurity Eng, MGM Resorts International, USA</p>
                   <p className="break-inside-avoid">Mr. Karthiganesh, Director, Kwantumg research lab, Bengaluru</p>
+                  <p className="break-inside-avoid">Dr. N. Chinna Alluraiah, AU, Rajampet</p>
                   <p className="break-inside-avoid">Dr. S. Ravi Prakash Reddy, IIT, Mumbai</p>
                   <p className="break-inside-avoid">Dr. S. Jeevananthan, PTU, Puducherry</p>
                   <p className="break-inside-avoid">Dr. M. Venkatesan, NIT, Puducherry</p>
-                  <p className="break-inside-avoid">Dr. P. Gopi, AU, Rajampet</p>
                   <p className="break-inside-avoid">Dr. Dhanunjaya Babu, AU, Rajampet</p>
-                  <p className="break-inside-avoid">Dr. S. Venkateswarlu Reddy, AU, Rajampet</p>
+                  <p className="break-inside-avoid">Dr. C. Ganesh, AU, Rajampet</p>
+                  <p className="break-inside-avoid">Dr.J.Sreeranganayakulu , AU, Rajampet</p>
                 </div>
               </div>
 
